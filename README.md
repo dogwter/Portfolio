@@ -7,4 +7,5 @@ ap ics portfolio website
 
 - taskbar onto each page
 
+- resize dropdowns
 
