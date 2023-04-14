@@ -165,3 +165,37 @@ body {
     
 }
 
+.tutorial {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-top: 2.5rem;
+}
+
+.tutorial-body{
+    margin-left: 5rem;
+}
+
+.tutorial-nav{
+    position: sticky;
+    top: 2rem;
+}
+
+.nav-subtitle{
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.nav-option{
+    display: block;
+    color: #FFFFFF66;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+.nav-option:focus,
+.nav-option:hover {
+    color: var(--my-white);
+    background-color: transparent;
+
+}
